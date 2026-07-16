@@ -11,3 +11,11 @@ After downloading the dataset, run the preprocessing script:
 
 ```bash
 python image_cropping.py
+
+The script performs retinal image preprocessing and generates the processed images. The preprocessed images will be saved to: .data/OIA_ODIR/
+
+### 2. Feature Extraction with RETFound-MAE
+
+We use the pretrained retinal foundation model RETFound-MAE as the feature extractor.
+
+The extracted feature representations for all samples are generated in advance and stored at: .data/OIA_ODIR/ViT_features/
