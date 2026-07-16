@@ -11,6 +11,7 @@ After downloading the dataset, run the preprocessing script:
 
 ```bash
 python image_cropping.py
+```
 
 The script performs retinal image preprocessing and generates the processed images. The preprocessed images will be saved to: .data/OIA_ODIR/
 
